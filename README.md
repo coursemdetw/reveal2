@@ -1,2 +1,3 @@
 # reveal2
-updated reveal
+
+http://coursemdetw.github.io/reveal2
