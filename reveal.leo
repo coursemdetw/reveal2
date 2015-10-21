@@ -20,7 +20,8 @@
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
 <v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
-<v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
+<v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
+<v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
@@ -382,6 +383,23 @@
 <v t="amd.20150915170743.147"><vh>結束單頁</vh></v>
 </v>
 <v t="amd.20150915170743.148"><vh>script</vh></v>
+</v>
+</v>
+</v>
+</v>
+<v t="amd.20151021113722.1"><vh>@path plugin</vh>
+<v t="amd.20151021113731.1" a="E"><vh>@path liquid_tags</vh>
+<v t="amd.20151021113745.1"><vh>@edit notebook.py</vh></v>
+</v>
+</v>
+<v t="amd.20151021114454.1" a="E"><vh>@path user</vh>
+<v t="amd.20151021114529.1"><vh>各組員必須自行建立 以下節點</vh></v>
+<v t="amd.20151021114504.1" a="E"><vh>@path 9999</vh>
+<v t="amd.20151021114639.1"><vh>@edit 9999_cp_w1_p.html</vh></v>
+<v t="amd.20151021114516.1" a="E"><vh>@path pelican</vh>
+<v t="amd.20151021114727.1"><vh>@edit publishconf.py</vh></v>
+<v t="amd.20151021114712.1" a="E"><vh>@path content</vh>
+<v t="amd.20151021114905.1"><vh>@edit 9999_cp_w1.md</vh></v>
 </v>
 </v>
 </v>
@@ -1709,9 +1727,8 @@ pelican pelican -o ./../ -s publishconf.py
 <t tx="amd.20150919120205.1"></t>
 <t tx="amd.20150919124128.1">@language python
 import os
-#os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-bootstrap3")
-os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
-g.es("pelican 執行完畢")</t>
+os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t ../../theme/pelican-octopress")
+g.es("user pelican 執行完畢")</t>
 <t tx="amd.20151006113136.1"></t>
 <t tx="amd.20151007224830.1">安裝
 
@@ -1721,6 +1738,17 @@ sudo pip3 install jupyter
 
 jupyter notebook
 </t>
+<t tx="amd.20151021113722.1"></t>
+<t tx="amd.20151021113731.1"></t>
+<t tx="amd.20151021114454.1"></t>
+<t tx="amd.20151021114504.1"></t>
+<t tx="amd.20151021114516.1"></t>
+<t tx="amd.20151021114529.1"></t>
+<t tx="amd.20151021114712.1"></t>
+<t tx="amd.20151021120245.1">@language python
+import os
+os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
+g.es("admin pelican 執行完畢")</t>
 <t tx="ibm.20150918175403.1">@language xml
 @tabwidth -4
 @others
