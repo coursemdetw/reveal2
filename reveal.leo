@@ -278,8 +278,6 @@ jupyter notebook
 import os
 os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
 g.es("admin pelican 執行完畢")</t>
-<<<<<<< HEAD
-=======
 <t tx="ibm.20150918175403.1">@language xml
 @tabwidth -4
 @others
@@ -368,6 +366,5 @@ g.es("admin pelican 執行完畢")</t>
     &lt;p&gt;線上教材&lt;/p&gt;
     &lt;p&gt;影音教材&lt;/p&gt;
 &lt;/section&gt;</t>
->>>>>>> master
 </tnodes>
 </leo_file>
